@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Django
+*.sqlite3
+db.sqlite3
+/media
+/staticfiles
+*.pot
+*.pyc
+*.mo
+*.log
+*.bak
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+env.bak/
+venv.bak/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+
+# Gunicorn PID
+gunicorn.pid
+
+# Local config files
+.env
+.env.*
+
+# Railway specific
+railway.json
